@@ -17,16 +17,19 @@ In this task we want you to use the PHP and MySQL code verbatim to build 2 docke
 # What you need to do
 
 1. Create the Dockerfiles to create the containers for the application, call the files;
+
    * Dockerfile.mysql
    * Dockerfile.app
+
 2. Create the docker-compose.yaml file to ensure that the 2 containers run, and that they are linked so that the app container sees the container called mysql
+
 3. Once you docker-compose.yaml works you should be able to point your web browser at your Linux host where the docker images are running and you should get a web form.  Type in UK and you will get 3 lines of data back;
 ```
 
-#	First Name	Last Name	Email Address	Age	Location	Date
-1	Steve	        Shilling	bob@builder.com	23	UK	
-2	Marcus	        Chinwag	        bob@builder.com	23	UK	
-3	Paul	        Filmer	        bob@builder.com	23	UK
+#	First Name	Last Name	Email Address	  Age Location	Date
+1	Steve	      Shilling	bob@builder.com	23	UK
+2	Marcus	    Chinwag	  bob@builder.com	23	UK
+3	Paul	      Filmer	  bob@builder.com	23	UK
 ```
 
 Once you have the 2 containers running and the above output in your web browser, you should then convert your docker-compose.yaml to OpenShift YAML and launch your application in OpenShift.
