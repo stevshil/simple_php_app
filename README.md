@@ -20,7 +20,6 @@ In this task we want you to use the PHP and MySQL code verbatim to build 2 docke
 
    * Dockerfile.mysql
    * Dockerfile.app
-
 2. Create the docker-compose.yaml file to ensure that the 2 containers run, and that they are linked so that the app container sees the container called mysql
 
 3. Once you docker-compose.yaml works you should be able to point your web browser at your Linux host where the docker images are running and you should get a web form.  Type in UK and you will get 3 lines of data back;
