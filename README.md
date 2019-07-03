@@ -31,10 +31,10 @@ Make use of any already available Docker images from Docker Hub, creating the re
 * Once you docker-compose.yaml works you should be able to point your web browser at your Linux host where the docker images are running and you should get a web form.  Type in UK and you will get 3 lines of data back;
 
 ```
-#	First Name	Last Name	Email Address	  Age Location	Date
-1	Steve	      Shilling	bob@builder.com	23	UK
-2	Marcus	    Chinwag	  bob@builder.com	23	UK
-3	Paul	      Filmer	  bob@builder.com	23	UK
+#	First Name	Last Name	Email Address	     Age Location	Date
+1	Steve	        Shilling	bob@builder.com	     23	 UK
+2	Marcus	        Chinwag	        chinwag@builder.com  32	 UK
+3	Paulo	        Filmer	        filmer@builder.com   41	 UK
 ```
 
 Once you have the 2 containers running and the above output in your web browser, you should then convert your docker-compose.yaml to OpenShift YAML and launch your application in OpenShift.

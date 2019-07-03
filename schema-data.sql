@@ -15,5 +15,5 @@ CREATE TABLE users (
 
 -- Populate table
 INSERT INTO users VALUES(1,"Steve","Shilling","bob@builder.com",23,"UK",default);
-INSERT INTO users VALUES(2,"Marcus","Chinwag","bob@builder.com",23,"UK",default);
-INSERT INTO users VALUES(3,"Paul","Filmer","bob@builder.com",23,"UK",default);
+INSERT INTO users VALUES(2,"Marcus","Chinwag","chinwag@builder.com",32,"UK",default);
+INSERT INTO users VALUES(3,"Paulo","Filmer","filmer@builder.com",41,"UK",default);
