@@ -52,3 +52,4 @@ All of your code must be in BitBucket repository that the instructors can review
 | All your code in BitBucket            | 6 marks |
 | BitBucket URL has been provided to instructor | 4 marks |
 | Actual working web application        | 4 marks |
+| Running in OpenShift appsrvdev        | 4 marks |
