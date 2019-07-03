@@ -43,6 +43,7 @@ All of your code must be in BitBucket repository that the instructors can review
 # Marking scheme
 
 | Description | Score |
+|-|-|
 | Correct Dockerfile creation and names | 6 marks |
 | Correct versions of the images pinned | 2 marks |
 | Mapping of persistent volume          | 2 marks |
