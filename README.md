@@ -39,3 +39,16 @@ You must only put your application on the appsrvdev.conygre.com server.
 # What about my code
 
 All of your code must be in BitBucket repository that the instructors can review, and you should have a README.md file that tells me how to get your application running in OpenShift, which should include the oc commands that I need to run, and any builds or docker-compose commands to run, etc.
+
+# Marking scheme
+
+| Description | Score |
+| Correct Dockerfile creation and names | 6 marks |
+| Correct versions of the images pinned | 2 marks |
+| Mapping of persistent volume          | 2 marks |
+| Correct username and password on MySQL | 2 marks |
+| Correct name for MySQL server         | 2 marks |
+| Correct final output                  | 4 marks |
+| All your code in BitBucket            | 6 marks |
+| BitBucket URL has been provided to instructor | 4 marks |
+| Actual working web application        | 4 marks |
