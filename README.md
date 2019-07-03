@@ -1,6 +1,7 @@
 # Docker and OpenShift assessment
 
 In this task we want you to use the PHP and MySQL code verbatim to build 2 docker containers;
+
 * MySQL Database container which is populated on start up by the schema-data.sql script
   * The version of MySQL must be 5.7.19
   * The MySQL image has a special directory that if you place your SQL script in will load that on initial start
